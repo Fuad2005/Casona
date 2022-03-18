@@ -2,6 +2,8 @@
 @media (max-width: 576px) { 
 .header{
     height: 8vh;
+    margin-left: -10px;
+    padding-top: 10px;
     .bar{
         display: block;
         padding-top: 5px;
@@ -31,15 +33,16 @@
 
 .footer{
     height: 20vh;
+    margin-right: 90px;
     .f-logo{
         width: 40%;
-        margin-left: 110px;
+        margin-left: 125px;
     }
     .f-text{
         margin-left: 45px;
     }
     .f-icons{
-        margin-left: 95px;
+        margin-left: 100px;
     }
 }
 
