@@ -3,6 +3,7 @@
     margin: auto;
 }
 
+
 .header{
     position: relative;
     padding-top: 25px;
@@ -42,7 +43,7 @@
                     .home-menu2{
                         padding-left: 20px;
                         padding-top: 10px;
-                        transition: 0.35s ease-in-out;
+                        transition: 0.5s ease-in-out;
                         transform: translateY(10px);
                         opacity: 0;
                         visibility: hidden;
@@ -98,7 +99,7 @@
                     }
                         .shop-menu2{
                             background-color: #fff;
-                        transition: 0.35s ease-in-out;
+                        transition: 0.5s ease-in-out;
                         transform: translateY(10px);
                         opacity: 0;
                         visibility: hidden;
@@ -212,7 +213,7 @@
                     }
                         .pro-menu2{
                             background-color: #fff;
-                        transition: 0.35s ease-in-out;
+                        transition: 0.5s ease-in-out;
                         transform: translateY(10px);
                         opacity: 0;
                         visibility: hidden;
@@ -234,14 +235,17 @@
                                 font-family: 'Nunito', sans-serif;
                             }
                             h6{
-                                padding-top: 5px;
-                                opacity: 0.8;
-                                font-size: 14px;
-                                transition: 0.25s ease-in-out;
-                                    &:hover{
-                                        color: #2DBBF0;
-                                        cursor: pointer;
-                                    }
+                                a{
+                                    padding-top: 0px;
+                                    opacity: 0.7;
+                                    font-size: 14px;
+                                    transition: 0.25s ease-in-out;
+                                        &:hover{
+                                            color: #2DBBF0;
+                                            cursor: pointer;
+                                        }
+                                }
+                                
                             }
                         }
                     }
@@ -256,7 +260,7 @@
                     }
                         .page-menu2{
                             background-color: #fff;
-                        transition: 0.35s ease-in-out;
+                        transition: 0.5s ease-in-out;
                         transform: translateY(10px);
                         opacity: 0;
                         visibility: hidden;
@@ -270,12 +274,22 @@
                         border-radius: 10px;
                         ul{
                             li{
-                                padding-top: 10px;
+                                padding-top: 5px;
                                 padding-left: 10px;
-                                h6{
-                                    opacity: 0.8;
-                                    padding-left: 20px;
-                                    font-size: 15px;
+                                
+                                    h6{
+                                        a{
+                                            opacity: 0.8;
+                                            padding-left: 20px;
+                                            font-size: 13px;
+                                            transition: 0.25s ease-in-out;
+                                                &:hover{
+                                                    color: #2DBBF0;
+                                                    cursor: pointer;
+                                                }
+                                        }
+                                        
+                                    }
                                 }
                             }
                         }
@@ -318,7 +332,7 @@
                     font-family: 'poppins',sans-serif;
                     font-size: 12px;
                     display: inline-block;
-                    padding: 10px 25px;
+                    padding: 5px 25px;
                     font-weight: 600;
                     transition: 0.25s ease-in-out;
                     &:hover{
@@ -330,14 +344,16 @@
         
     }
     
-}
+
 
 // HEADER END //
 
 
 .footer{
     z-index: 100;
-    .container2{    
+    width: 100%;
+    padding-left: 50px;
+    .container3{    
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -352,8 +368,11 @@
     }
     .f-text{
         display: inline-block;
+        width: 72%;
+        ul{
+        justify-content: center;
 
-
+        }
         a{
             text-decoration: none;
             
@@ -372,6 +391,7 @@
     }
     .f-icons{
         display: inline-block;
+        width: 200px;
 
         i{
             color: #fff;

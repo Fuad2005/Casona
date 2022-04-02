@@ -1,0 +1,130 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+.about-main{
+    height: 30vh;
+    .about-text-box{
+        left: 36%;
+        h1{
+            margin-left: 18px;
+        }
+    }
+}
+.bg{
+    margin-top: 20px;
+    width: 95%;
+    margin-left: 10px;
+}
+.about-info{
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+
+.minimal{
+    .minimal-1{
+        margin-left: 15px;
+        width: 92%;
+        .min-text{
+            p{
+                width: 100%;
+            }
+        }
+        
+    }
+    .minimal-2{
+        margin-left: 15px;
+        width: 92%;
+        margin-top: 10px;
+        .min-text{
+            p{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+.reasons{
+    height: 70vh;
+    h1{
+        font-size: 25px;
+    }
+    .r-parts{
+       
+        .r-part1{
+            h1{
+                width: 100%;
+                margin-left: 2px;
+            }
+            svg{
+                width: 55px;
+                margin-left: 41%;
+            }
+            height: 20vh;
+            border-right: 0px;
+        }
+    }
+}
+
+.testimonials{
+    .test-boxes{
+        .test-resp{
+            display: none;
+        }
+        .test-box1{
+            height: 32vh;
+            h6{
+                margin-left: 42px;
+            }
+            .stars{
+                margin-left: 33%;
+            }
+            img{
+                margin-left: 36.5%;
+            }
+        }
+        
+    }
+    
+}
+
+.about-icons{
+    .a-icons-resp{
+        display: none;
+    }
+    img{
+        margin: 0 15px
+    }
+}
+
+
+
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 576px) and (max-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}

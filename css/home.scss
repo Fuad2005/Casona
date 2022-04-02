@@ -1,4 +1,5 @@
 @import 'header-footer.scss';
+@import 'contact.scss';
 
 .container3 {
     width: 95%;
@@ -495,13 +496,15 @@
                    width: 100%;
                    border: none;
                    outline: none;
+                   transition: 0.25s ease-in-out;
                    border-bottom: 2px solid #fff;
                    &:focus ~ label{
                        transform: translateY(-25px);
                        font-size: 14px;
+
                    }
-                   &:focus ~ input{
-                    border: 2px solid #2DBBF0;
+                   &:focus {
+                    border-bottom: 2px solid #2DBBF0;
                 }
                    
                }
@@ -517,7 +520,7 @@
            }
            .s-btn{
                position: absolute;
-               top: 38%;
+               top: 38.5%;
                left: 80.2%;
                &:hover{
                    a{
@@ -642,7 +645,7 @@
         padding-top: 100px;
         height: 30vh;
         .i-img{
-                width: 20%;
+                width: 100%;
                 position: relative;
                 .overlay{
                     position: absolute;

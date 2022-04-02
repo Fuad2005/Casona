@@ -419,4 +419,142 @@
     margin-left: 100px;
   }
 }
-/*# sourceMappingURL=header-footer.css.map */
+
+.cont-main {
+  background: url(/photo/blue.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.cont-main .contact-text-box {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.cont-main .contact-text-box h1 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.cont-main .contact-text-box a {
+  text-decoration: none;
+  padding: 0 8px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cont-main .contact-text-box i {
+  color: #fff;
+  font-size: 12px;
+}
+
+.cont-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.cont-info .cont-phone {
+  margin-left: 36px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  width: 30%;
+  height: 20vh;
+}
+
+.cont-info .cont-phone i {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.cont-info .cont-phone h3 {
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.cont-info .cont-phone p {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.493);
+}
+
+.message {
+  margin-top: 100px;
+}
+
+.message .message-box input {
+  padding: 0 15px;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.39);
+  border-radius: 3px;
+  outline: none;
+}
+
+.message .message-box input:focus {
+  border: 1px solid #2dbbf0;
+}
+
+.message .message-box textarea {
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.39);
+  padding-top: 10px;
+  padding-left: 15px;
+  width: 60%;
+  height: 35vh;
+}
+
+.message a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  margin: 40px 0;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding: 15px 25px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.message a:hover {
+  background-color: #2DBBF0;
+}
+
+@media (max-width: 576px) {
+  .cont-main {
+    height: 35vh;
+  }
+  .cont-main .contact-text-box {
+    left: 35%;
+  }
+  .cont-main .contact-text-box h1 {
+    margin-left: 18px;
+  }
+  .cont-info .cont-phone {
+    width: 90%;
+    margin-left: 18px;
+    margin-bottom: 20px;
+  }
+  .message .message-box input {
+    width: 80%;
+  }
+  .message .message-box textarea {
+    width: 95%;
+  }
+  .message a {
+    padding: 15px 100px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

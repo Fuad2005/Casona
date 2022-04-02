@@ -1,0 +1,74 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+.etiam-main{
+    height: 25vh;
+    .etiam-text-box{
+        left: 17%;
+        top: 50%;
+    }
+}
+
+.etiam-img{
+    img{
+        width: 92%;
+    }
+}
+.b-sidebar{
+    width: 90%;
+    margin: auto;
+    .newsettlers{
+        margin: auto;
+        width: 95%;
+    }
+}
+.etiam-info{
+    .reply{
+       
+        textarea{
+            width: 100%;
+        }
+        .name{
+            margin-top: 20px;
+
+            
+        }.email{
+            margin-top: 20px;
+
+            
+        }.website{
+            margin-top: 20px;
+
+            
+        }
+        a{
+            margin-left: 25%;
+        }
+        
+    }
+    
+}
+
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 576px) and (max-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}

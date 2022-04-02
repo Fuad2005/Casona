@@ -1,0 +1,117 @@
+@import 'header-footer.scss';
+
+
+.cont-main{
+    background: url(/photo/blue.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    .contact-text-box{
+        position: absolute;
+        top: 40%;
+        left: 45%;
+        h1{
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+
+            font-weight: 300;
+        }
+        a{
+            text-decoration: none;
+            padding:0 8px;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        i{
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+}
+
+
+
+
+
+
+.cont-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    .cont-phone{
+        margin-left: 36px;
+        border: 1px solid rgba(0, 0, 0, 0.11);
+        width: 30%;
+        height: 20vh;
+        i{
+            padding-top: 20px;
+            font-size: 30px;
+        }
+        h3{
+            font-weight: 400;
+            padding: 5px 0;
+        }
+        p{
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.493);
+        }
+    }
+}
+.message{
+    margin-top: 100px;
+    .message-box{
+        input{
+            padding: 0 15px;
+            transition: 0.25s ease-in-out;
+            margin-bottom: 10px;
+            width: 60%;
+            height: 50px;
+            border: 1px solid rgba(128, 128, 128, 0.39);
+            border-radius: 3px;
+            outline: none;
+            &:focus{
+                border: 1px solid rgb(45, 187, 240)
+            }
+        }
+        textarea{
+            outline: none;
+            border: 1px solid rgba(128, 128, 128, 0.39);
+            padding-top: 10px;
+            padding-left: 15px;
+            width: 60%;
+            height: 35vh;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #000;
+        display: inline-block;
+        margin: 40px 0;
+        letter-spacing: 1px;
+        font-size: 15px;
+        padding: 15px 25px;
+        transition: 0.3s ease-in-out;
+        border-radius: 3px;
+        &:hover{
+            background-color: #2DBBF0;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@import 'responsive-contact';

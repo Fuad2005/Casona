@@ -1,0 +1,87 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+.product-main{
+    height: 40vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .main-text{
+        .shop-text{
+            margin-top: 0;
+        }
+        .category-text{
+            .resp-cat{
+                display: none;
+            }
+            margin-left: 15px;
+            a{
+                padding: 0 20px;
+            }
+            i{
+                transform: translateX(-30px);
+            }
+        }
+    }
+}
+
+.shop{
+    .pro-categories{
+        display: none;
+    }
+    .pro-tags{
+        display: none;
+    }
+    .pro-color{
+        display: none;
+    }
+    .pro-size{
+        display: none;
+    }
+    .pro-top{
+        h5{
+            display: none;
+            
+        }
+        .filter{
+            display: block;
+        }
+        .top-icons{
+            display: none;
+        }
+        a{
+            padding: 10px 20px;
+        }
+    }
+    .prod{
+        grid-template-columns: 50% 50%;
+    }
+    .pro-pages{
+        margin-left: 18%;
+    }
+}
+
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 576px) and (max-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}

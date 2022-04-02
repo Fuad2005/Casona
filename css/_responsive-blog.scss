@@ -1,0 +1,90 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .blog-main{
+        height: 30vh;
+        .blog-text-box{
+            left: 37%;
+            h1{
+                margin-left: 18px;
+            }
+        }
+    }
+
+    .blog-content{
+        .content-1{
+            width: 100%;
+            .content-box1{
+                width: 100%;
+                p{
+                    margin: 20px 30px;
+                }
+                h1{
+                    font-size: 20px;
+                    margin: 0 20px;
+                }
+                span{
+                    margin-left: 10px;
+                padding-left: 10px;
+                }
+                a{
+                    margin-left: 20px;
+                }
+            }
+            .content-box2{
+                width: 100%;
+                p{
+                    margin: 20px 30px;
+                }
+                h1{
+                    font-size: 20px;
+                    margin: 0 20px;
+                }
+                span{
+                    margin-left: 10px;
+                padding-left: 10px;
+                }
+                a{
+                    margin-left: 20px;
+                }
+            }
+            .blog-pages{
+                margin-left: 31%;
+            }
+        }
+        
+    }
+
+    .b-sidebar{
+        width: 90%;
+        margin: auto;
+        .newsettlers{
+            margin: auto;
+            width: 95%;
+        }
+    }
+
+
+
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 576px) and (max-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) { 
+
+}
